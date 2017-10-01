@@ -15,7 +15,7 @@ from read_minimed_next24 import HISTORY_DATA_TYPE
 class LatestActivity (object):
 
     def __init__(self):
-        self.db=MongoClient().bg_db_test
+        self.db=MongoClient().bg_db
     
     def get_max_bg_record(self):
         pipeline = [
